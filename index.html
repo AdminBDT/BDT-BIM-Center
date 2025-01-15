@@ -22,5 +22,33 @@
 <body>
     <iframe src="https://script.google.com/macros/s/AKfycbywC2A06lu3eVK6RrFXTl1DWt_w4aJrDzoPBTVcQhQAl5QZf7Gw7glQ5H6dPMKv5wWv/exec"sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
     allow="fullscreen"></iframe>
+
+
+
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  location="us-central1"
+  project-id="bdt-chatbot-423306"
+  agent-id="6d426f0b-2150-4007-8abd-f8e864415ffb"
+  language-code="en"
+  max-query-length="-1">
+<df-messenger-chat-bubble
+   chat-title="bdt-agent">
+</df-messenger-chat-bubble>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-background: #f3f6fc;
+    --df-messenger-message-user-background: #d3e3fd;
+    --df-messenger-message-bot-background: #fff;
+    bottom: 16px;
+    right: 16px;
+  }
+</style>
 </body>
 </html>
